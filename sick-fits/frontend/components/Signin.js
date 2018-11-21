@@ -47,6 +47,7 @@ class Signin extends Component {
               <h2>Sign In</h2>
               <Error error={error} />
               <label htmlFor="email">
+                Email
                 <input
                   type="email"
                   name="email"
@@ -56,6 +57,7 @@ class Signin extends Component {
                 />
               </label>
               <label htmlFor="password">
+                Password
                 <input
                   type="password"
                   name="password"
